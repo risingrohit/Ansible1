@@ -1,0 +1,20 @@
+---
+- name: Testing Ping
+  hosts: are_01
+  
+  tasks:
+   - name: Test reachability pass ping
+     net_ping:
+      dest: 10.135.52.180
+     register: ping_response
+   - name: Print ping response
+     debug:
+      msg:  "{{ ping_response }}"
+   - name: Test reachability fail ping
+     net_ping:
+      dest: 5.5.5.5
+     ignore_errors: yes
+     register: ping_response_fail
+   - name: Print ping response
+     debug:
+      msg:  "{{ ping_response_fail }}"

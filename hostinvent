@@ -1,0 +1,13 @@
+are_01 ansible_host=173.16.1.204 ansible_network_os=nxos ansible_user=admin ansible_ssh_pass=admin ansible_connection=network_cli
+are_02 ansible_host=173.16.1.207 ansible_network_os=nxos ansible_user=admin ansible_ssh_pass=admin ansible_connection=network_cli
+src_dre_02 ansible_host=173.16.1.205 ansible_network_os=nxos ansible_user=admin ansible_ssh_pass=admin ansible_connection=network_cli
+src_dre_01 ansible_host=173.16.1.203 ansible_network_os=nxos ansible_user=admin ansible_ssh_pass=admin ansible_connection=network_cli
+target_dre_01 ansible_host=173.16.1.208 ansible_network_os=nxos ansible_user=admin ansible_ssh_pass=admin ansible_connection=network_cli
+target_dre_02 ansible_host=173.16.1.209 ansible_network_os=nxos ansible_user=admin ansible_ssh_pass=admin ansible_connection=network_cli
+
+[TOR]
+are_01 ansible_host=173.16.1.204 ansible_network_os=nxos ansible_user=admin ansible_ssh_pass=admin ansible_connection=network_cli
+are_02 ansible_host=173.16.1.207 ansible_network_os=nxos ansible_user=admin ansible_ssh_pass=admin ansible_connection=network_cli
+[OLD]
+src_dre_02 ansible_host=173.16.1.205 ansible_network_os=nxos ansible_user=admin ansible_ssh_pass=admin ansible_connection=network_cli
+src_dre_01 ansible_host=173.16.1.203 ansible_network_os=nxos ansible_user=admin ansible_ssh_pass=admin ansible_connection=network_cli
