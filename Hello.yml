@@ -1,6 +1,5 @@
 ---
 - name: print hello
-  hosts: localhost
   
   tasks:
    - name: print
